@@ -1,0 +1,3 @@
+baseurl: /abrams
+exclude: ['README.md', '.gitignore']
+permalink: pretty
