@@ -3,3 +3,56 @@
   margin: 0 auto;
   max-width: 1360px;
 }
+
+/* sidebar styles */
+.left {
+  background-color: #000;
+  color: white;
+  width: 150px;
+  position: fixed;
+  height: 100%;
+}
+
+.nav {
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+.nav li {
+  margin-top: 20px;
+}
+
+/* main content styles */
+.right {
+  margin-left: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left {
+    position: static;
+    width: 100%;
+    /* display: none; */
+  }
+
+  .right {
+    margin: 0;
+  }
+}

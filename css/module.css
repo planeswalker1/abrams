@@ -1,0 +1,32 @@
+/* container styles */
+.intro,
+.about,
+.skills,
+.experince {
+  border-bottom: 2px solid #000;
+  padding: 20px;
+}
+
+/* img styles */
+.img {
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  margin: 0 30px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+/* text styles */
+.text--center {
+  text-align: center;
+}
+
+.text--spacing {
+  line-height: 1.5;
+  padding: 20px;
+}
